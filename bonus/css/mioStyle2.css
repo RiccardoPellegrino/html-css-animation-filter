@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.corpo{
+    height: 100vh;
+    background-color: #ffffff00
+}
+.posizione-inizio{
+    display: flex;
+    position: relative;
+    height: 900px;
+    width: 400px;
+    margin: 0 auto;
+    
+}
+.mano1{
+    display: flex;
+    margin: 0 auto;
+    cursor: pointer;
+    
+}
+.mano1 img{
+    height: 200px;
+    width: 360px;
+    z-index: 10;
+}
+.pallina img{
+    position: absolute;
+    top: 90px;
+    left: 130px;
+    display: flex;
+    height: 108px;
+    width: 170px;
+    margin: 0 auto;
+    z-index: 9;
+    animation-name: cadi ;
+    animation-duration: 4s;
+}
+
+
+.mano2 img{
+    position: absolute;
+    bottom: 0;
+    left: 80px;
+    display: flex;
+    height: 100px;
+    width: 340px;
+    margin: 0 auto;
+    z-index: 9;
+}
+@keyframes cadi{
+    from {top: 90px; left: 130px;}
+    to {top: 750px; left: 130px;}
+
+}@keyframes ruota{
+    0%{
+        transform: rotate(1turn);
+    }
+
+}
