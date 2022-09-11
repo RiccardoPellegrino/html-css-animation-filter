@@ -96,6 +96,10 @@
     }
 
 }
+.ex-11-icon {
+    font-size: 60px;
+   
+}
 .ex-11-icon:hover {
     font-size: 60px;
     animation: ruota2 4s linear infinite ;
